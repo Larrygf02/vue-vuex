@@ -1,11 +1,11 @@
 <template>
-  <contador></contador>
+  <person></person>
 </template>
 <script>
-import contador from "./components/Contador.vue";
+import person from "./components/Person.vue";
 export default {
   components: {
-    contador
+    person
   }
 };
 </script>
