@@ -23,19 +23,19 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
+      <v-btn target="_blank" text>
         <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+      <v-btn target="_blank">
+        <router-link to="/person"><span class="mr-2">Person</span></router-link>
+      </v-btn>
+      <v-btn target="_blank">
+        <router-link to="/tarea"><span class="mr-2">Tarea</span></router-link>
       </v-btn>
     </v-app-bar>
 
     <v-content>
-      <router-link to="/person">Person</router-link>
-      <router-link to="/tarea">Tarea</router-link>
       <router-view />
     </v-content>
   </v-app>
